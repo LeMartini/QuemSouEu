@@ -1,0 +1,240 @@
+header{
+    background: #183651;;
+    height: 70px;
+}
+
+body{
+    background: #183651;
+    padding: 5px 0;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+/*Inicio Cabeçalho*/
+.LogoJogo{
+    margin: 1% 1% 0% 380%;
+    padding: 5px;
+    border: 3px solid #000000;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 7px 7px 7px rgb(32, 28, 28);
+    max-width: 145px;
+    max-height: auto;
+}
+
+.caixa{
+    position: relative;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+nav li{
+    display:inline-block;
+    margin: 10px 10px 0px 0px;
+    padding: 10px;
+    border: 5px solid #000000;
+    border-radius: 8px;
+    background-color: rgb(240, 52, 52);
+    box-shadow: 7px 7px 7px rgb(32, 28, 28);
+}
+
+nav a{
+    font-family:'Courier New', Courier, monospace;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+nav li:hover, nav a:hover{
+    color: #7c0101;
+    font-size: 20px;
+}
+
+nav li:active{
+    border-color:#138891
+
+}
+
+nav a:active{
+    color:#138891
+}
+/*Fim Cabeçalho*/
+/*Inicio Rodapé*/
+footer{
+    text-align: center;
+    background: #3d9dca;
+}
+
+#Univille{
+    width: 4%;
+    margin: 0.5%;
+}
+/*Fim Rodapé*/
+/*Inicio Corpo*/
+.rodando {
+    animation: rotation 2s infinite linear;
+}
+/*Botões de Pergunta*/
+button{
+    text-align: right;
+    display:inline-block;
+    margin: 15px 15px;
+    padding: 10px;
+    border: 5px solid #000000;
+    border-radius: 8px;
+    background-color: rgb(240, 52, 52);
+    box-shadow: 7px 7px 7px rgb(32, 28, 28);
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+/*Seleção do Personagem*/
+select{
+    display:inline-block;
+    margin: 10px 10px;
+    padding: 10px;
+    border: 5px solid #000000;
+    border-radius: 8px;
+    background-color: #629fbb;
+    box-shadow: 7px 7px 7px rgb(32, 28, 28);
+    font-weight: bold;
+}
+
+button:hover{
+    color: #7c0101;
+    font-size: 15px;
+}
+
+.fundopergunta{
+    background-color: #629fbb;
+    border: 1px solid #112b36;
+    padding: 10px;
+    width: 400px;
+    height: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.imgcontainer{
+    width: 100%;
+}
+
+#Buzz, #Dexter, #dick, #Doutora, #Earl, #Edna, #Eustacio, #Fred,#Girafales,#Guido,
+#Homer,#Johnny,#Linguini,#Lula,#Mario,#Popeye,#Prefeito,#Sherlock,#Vicky,#Woody
+{
+    width: 9%;
+}
+
+.Personagens{
+    display: inline-block;
+    background-color: #3d9dca;
+    border: 5px solid #7c0101;
+    width: 90%;
+    padding: 8px;
+    margin: 0% 0% 0% 4%;
+    border-radius: 10px;
+    align-self: self-end;
+    justify-content: center;
+}
+
+.Escolha{
+    display:inline-flex;
+    margin: 0% 0% 0% 2.5%;
+    font-size: 0.8rem;
+}
+
+#EscolhaPersonagem{
+    font-family:'Courier New', Courier, monospace;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.perguntas{
+    position: relative;
+    background-color: #3d9dca;
+    border: 5px solid #7c0101;
+    width: 760px;
+    height: 100px;
+    padding: 19px;
+    margin: 0.5% 4% 0.8% 1%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.PersonagemJogador{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: #3d9dca;
+    border: 5px solid #7c0101;
+    padding: 10px;
+    margin: 0.5% 1% 1% 1.5%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#linha{
+    font-size: 1rem;
+}
+
+.cola{
+    color: #183651;
+    margin: 15px;
+    font-size: 1px;
+}
+
+.listas{
+    font-size: 1px;
+    color: #3d9dca;
+}
+
+.colaid{
+    color: #3d9dca;
+    margin: 15px;
+    font-size: 1px;
+}
+/*Inicio do Sobre Nos*/
+#SobreNos{
+    font-size: 1.4rem;
+    padding: 34px;
+    border: 5px solid #000000;
+    border-radius: 8px;
+    background-color: #3d9dca;
+    box-shadow: 7px 7px 7px rgb(32, 28, 28);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+    margin:4.5% 10%;
+}
+/*Fim do Sobre Nos*/
+
+/*Inicio do Como Jogar e Regras*/
+#ComoJogar, #Regras{
+    font-size: 1.1rem;
+    padding: 18px;
+    border: 5px solid #000000;
+    border-radius: 8px;
+    background-color: #3d9dca;
+    box-shadow: 7px 7px 7px rgb(32, 28, 28);
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    gap:20px;
+    margin: 0% 10% 2% 10%;
+}
+
+/*Fim do Como Jogar e Regras*/
+
+@media(max-widht:725px){
+    
+}
